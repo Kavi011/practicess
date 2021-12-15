@@ -1,0 +1,14 @@
+def Celsius_to_Fahrenheit(c) :
+    
+    f = (9/5)*c + 32
+    
+    return f
+    
+def Fahrenheit_to_Celsius(f) :
+    
+    c = (5/9)*(f - 32)
+    
+    return c
+    
+print(Celsius_to_Fahrenheit(6))
+print(Fahrenheit_to_Celsius(8))
